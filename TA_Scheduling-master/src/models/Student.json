@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "cGPA": {
+      "type": "number"
+    },
+    "facultyRef": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "class_Standing": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "employed": {
+      "type": "boolean"
+    },
+    "starting_term": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "arrange_instructor": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "cGPA",
+    "facultyRef",
+    "firstName",
+    "lastName",
+    "class_Standing",
+    "employed",
+    "starting_term",
+    "email",
+    "arrange_instructor"
+  ],
+  "additionalProperties": false
+}

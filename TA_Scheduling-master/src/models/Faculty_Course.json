@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "courseID": {
+      "type": "string"
+    },
+    "support_type": {
+      "type": "string"
+    },
+    "hoursAllowed": {
+      "type": "number"
+    },
+    "preferred_Student": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "not_preferred_Student": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "additional_req": {
+      "type": "string"
+    },
+    "courseTaken_preferred": {
+      "type": "boolean"
+    },
+    "share_student_approved": {
+      "type": "boolean"
+    },
+    "number_needed": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "email",
+    "courseID",
+    "support_type",
+    "hoursAllowed",
+    "preferred_Student",
+    "not_preferred_Student",
+    "additional_req",
+    "courseTaken_preferred",
+    "share_student_approved",
+    "number_needed"
+  ],
+  "additionalProperties": false
+}

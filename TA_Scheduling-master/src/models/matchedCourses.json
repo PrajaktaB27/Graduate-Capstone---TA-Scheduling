@@ -1,0 +1,40 @@
+{
+"type": "object",
+  "properties": {
+    "courseID": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "approved": {
+      "type": "boolean"
+    },
+    "latest_updated": {
+      "type": "object",
+      "properties": {
+        "$date": {
+          "type": "object",
+          "properties": {
+            "$numberLong": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "$numberLong"
+          ]
+        }
+      },
+      "required": [
+        "$date"
+      ]
+    }
+  },
+  "required": [
+    "courseID",
+    "email",
+    "approved",
+    "latest_updated"
+  ],
+  "additionalProperties": false
+}

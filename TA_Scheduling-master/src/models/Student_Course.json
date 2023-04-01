@@ -1,0 +1,32 @@
+{
+"type": "object",
+  "properties": {
+    "courseID": {
+      "type": "string"
+    },
+    "courseTaken": {
+      "type": "boolean"
+    },
+    "course_GPA": {
+      "type": "number"
+    },
+    "email": {
+      "type": "string"
+    },
+    "other_req": {
+      "type": "string"
+    },
+    "preferenceLevel": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "courseID",
+    "courseTaken",
+    "course_GPA",
+    "email",
+    "other_req",
+    "preferenceLevel"
+  ],
+  "additionalProperties": false
+}

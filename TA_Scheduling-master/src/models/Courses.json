@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "courseID": {
+      "type": "string"
+    },
+    "courseName": {
+      "type": "string"
+    },
+    "initialCapacity": {
+      "type": "number"
+    },
+    "maxCapacity": {
+      "type": "number"
+    },
+    "term": {
+      "type": "string"
+    },
+    "enrollment": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "courseID",
+    "courseName",
+    "initialCapacity",
+    "maxCapacity",
+    "term",
+    "enrollment"
+  ],
+  "additionalProperties": false
+}

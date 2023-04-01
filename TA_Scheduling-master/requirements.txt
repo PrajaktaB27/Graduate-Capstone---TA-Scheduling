@@ -1,0 +1,27 @@
+fastapi==0.88.0
+gunicorn==20.1.0
+uvicorn==0.20.0
+python-dotenv==0.21.0
+dnspython==2.2.1 
+pymongo==4.3.3
+certifi==2022.12.7
+python-multipart==0.0.5
+charset-normalizer==3.0.1 
+requests==2.28.2 
+urllib3==1.26.14
+
+#packages for authentication
+# bcrypt==4.0.1 
+# passlib==1.7.4
+# cffi==1.15.1 
+# cryptography==39.0.0 
+# ecdsa==0.18.0 
+# pyasn1==0.4.8 
+# pycparser==2.21 
+# python-jose==3.3.0 
+# rsa==4.9 
+# six==1.16.0
+
+pydantic~=1.10.4
+pytest~=7.2.1
+starlette~=0.22.0
