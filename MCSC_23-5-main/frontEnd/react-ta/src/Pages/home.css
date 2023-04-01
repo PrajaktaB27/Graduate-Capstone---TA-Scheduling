@@ -1,0 +1,47 @@
+html{
+    margin: 2%;
+    
+    }
+
+body {
+    background-color: #FBEEE6 ;
+    color: black;
+    padding: 100px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+}
+
+.Home{
+    margin-top: 20px;
+    padding: 150px;
+    border-style: solid;
+    border-color: black;
+    min-height: 100%;
+    align-items: center;  
+    text-align: center;
+}
+
+.btn{
+    background-color: #9b102e;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    float: none;
+    margin-block: center;
+    text-align: center; 
+    display: inline;
+    justify-content: center;
+    align-items: center;    
+}
+.horizontal-center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: fit-content;
+}

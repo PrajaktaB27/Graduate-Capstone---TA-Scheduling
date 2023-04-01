@@ -1,0 +1,47 @@
+
+
+.box-main{
+    margin: 20px;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+
+}
+
+.output-box{
+    margin: 20px;
+    padding: 50px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 20px
+}
+
+.survey-btn{
+    background-color: #9b102e;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 20px 60px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: calc(50% - 2%);
+}
+
+.survey-btn2{
+    background-color: #861a1a;
+    color: white;
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin: 20px 60px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: calc(50% - 2%);
+}
